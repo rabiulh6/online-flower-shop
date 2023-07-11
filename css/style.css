@@ -209,21 +209,37 @@
 
 /* Subscription */
 
-.subs-content{
+.subscription {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.subs-content {
     background-image: url("/images/subscribtion-aria.png");
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 60px 0; 
+    padding: 80px 0;
     border-radius: 5px;
 }
 
-.subs-form{
+.subs-form {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 
-.subs-btn{
+.subs-btn {
     border: none;
     outline: none;
+}
+
+.subs-form input[type=email] {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 600px;
+    padding: 14px 22px;
+    margin-right: 5px;
 }
