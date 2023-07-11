@@ -215,7 +215,7 @@
 }
 
 .subs-content {
-    background-image: url("/images/subscribtion-aria.png");
+    background-image: url("../images/subscribtion-aria.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
