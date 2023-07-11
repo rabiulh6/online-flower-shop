@@ -206,3 +206,24 @@
     line-height: normal;
     padding: 12px 0;
 }
+
+/* Subscription */
+
+.subs-content{
+    background-image: url("/images/subscribtion-aria.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0; 
+    border-radius: 5px;
+}
+
+.subs-form{
+    display: flex;
+
+}
+
+.subs-btn{
+    border: none;
+    outline: none;
+}
