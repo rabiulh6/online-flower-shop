@@ -180,3 +180,29 @@
 .img-container-box.three {
     background: rgba(71, 125, 17, 0.15);
 }
+
+/* Footer */
+.footer {
+    background-color: #111010;
+    padding: 80px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-title {
+    color: #E55473;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 0;
+}
