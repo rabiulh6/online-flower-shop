@@ -1,0 +1,24 @@
+/* Common Uses Class with Styles */
+.primary-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.primary-color {
+    color: #E55473;
+}
+
+.primary-bg-color {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.primary-heading-color{
+    color: #272727;
+}
+
+.primary-text-color{
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.secondary-text-color{
+    color: rgba(255, 255, 255, 0.90);
+}
