@@ -1,3 +1,10 @@
+/* Global selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Common Uses Class with Styles */
 .primary-font {
     font-family: 'Lato', sans-serif;
@@ -11,14 +18,26 @@
     background-color: rgba(229, 84, 115, 0.10);
 }
 
-.primary-heading-color{
+.primary-heading-color {
     color: #272727;
 }
 
-.primary-text-color{
+.primary-text-color {
     color: rgba(39, 39, 39, 0.60);
 }
 
-.secondary-text-color{
+.secondary-text-color {
     color: rgba(255, 255, 255, 0.90);
+}
+
+.primary-btn {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-size: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    background-color: #E55473;
+    padding: 20px 43px;
+    border-radius: 8px;
 }
