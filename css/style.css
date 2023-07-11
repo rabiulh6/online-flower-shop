@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Common Uses Class with Styles */
 .primary-font {
     font-family: 'Lato', sans-serif;
@@ -49,6 +50,30 @@
     margin: 0 auto;
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 18px 300px;
+}
+
+
+/* Common Used end */
+
 /* (Section #1) Hero section styles  */
 .hero-section {
     background-color: rgba(229, 84, 115, 0.10);
@@ -68,9 +93,10 @@
     flex-basis: 50%;
 }
 
-.hero-right{
+.hero-right {
     margin-left: 80px;
 }
+
 .hero-title {
     color: #272727;
     font-family: "Lato", sans-serif;
@@ -95,3 +121,62 @@
     vertical-align: bottom;
 }
 
+/* Featured Section styles */
+.featured-section {
+    padding: 50px 0px;
+}
+
+.featured-title {
+    padding-top: 90px;
+}
+
+.featured-inner-aria {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-content-box {
+    flex-basis: 32%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.img-container-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 460px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: #eee;
+}
+
+.img-container-box>img {
+    width: 260px;
+}
+
+.featured-img-link {
+    color: #272727;
+    font-family: "Lato", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-decoration-line: underline;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.img-container-box.one {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.img-container-box.two {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.img-container-box.three {
+    background: rgba(71, 125, 17, 0.15);
+}
